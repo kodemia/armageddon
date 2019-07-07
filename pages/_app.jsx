@@ -6,7 +6,9 @@ import Menu from '../components/Menu'
 
 
 class MyApp extends App {
+
   static async getInitialProps({ Component, ctx }) {
+
     let pageProps = {}
 
     if (Component.getInitialProps) {
@@ -18,7 +20,6 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps } = this.props
-
     return (
       <Container >
         <NavBar />

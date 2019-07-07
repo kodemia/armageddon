@@ -7,7 +7,7 @@ const menuList = [
   {
     'icon': 'static/icons/calendar.svg',
     'redirect_to': '/'
-  },
+  }
 ]
 
 export default menuList
