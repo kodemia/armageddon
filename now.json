@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": "admin.kodemia.dev",
+  "name": "armageddon",
+
+  "builds": [
+    {
+      "src": "next.config.js", 
+      "use": "@now/next"
+    }
+  ]
+}
