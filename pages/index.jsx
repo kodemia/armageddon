@@ -5,7 +5,7 @@ export default () => {
   return (
     <>
       <div id='dashboard-container'>
-        <p>HOME SCREEN</p>
+        <p>Work in progress.</p>
         <style global jsx>{`
           body, html{
             padding: 0;

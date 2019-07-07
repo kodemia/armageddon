@@ -7,7 +7,7 @@ class NavBar extends Component {
         <nav>
           <div id='logo'>
             <figure>
-              <img src="../static/icons/kodemia.svg" alt="Kodemia" />
+              <img src="../static/icons/kodemiaWhite.svg" alt="Kodemia" />
             </figure>
           </div>
           <div>
@@ -23,6 +23,15 @@ class NavBar extends Component {
             justify-content: space-between;
             align-items: center;
             padding: 0px 10px;
+          }
+
+          #logo figure {
+            margin-left: 10px;
+          }
+
+          #logo figure img {
+            width: 40px;
+            height: 40px;
           }
 
         `}</style>

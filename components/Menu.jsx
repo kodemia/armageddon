@@ -27,7 +27,7 @@ class Menu extends Component {
             }
 
             .menu-item:hover img {
-              transform: scale(1.2);
+              transform: scale(1.1);
             }
           `}</style>
         </li>
