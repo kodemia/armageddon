@@ -1,6 +1,6 @@
 import React from 'react'
 import App, { Container } from 'next/app'
-import Router from 'next/router';
+import Router from 'next/router'
 
 import NavBar from '../components/NavBar'
 
@@ -15,7 +15,9 @@ class ArmageddonApp extends App {
   }
 
   render () {
-    const { Component, pageProps } = this.props
+    const { Component, pageProps, router } = this.props
+
+    const isToSignIn = router.route === '/sign-in'
 
     return (
       <Container >
@@ -29,7 +31,7 @@ class ArmageddonApp extends App {
           /* custom! */
         `}</style>
 
-        <NavBar />
+        { !isToSignIn && <NavBar /> }
 
         <Component {...pageProps} />
       </Container>
