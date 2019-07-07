@@ -7,7 +7,7 @@ class NavBar extends Component {
         <nav>
           <div id='logo'>
             <figure>
-              <img src="" alt="Kodemia" />
+              <img src="../static/icons/kodemia.svg" alt="Kodemia" />
             </figure>
           </div>
           <div>
