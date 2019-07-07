@@ -12,16 +12,14 @@ const app = express()
 
 app.use(cors())
 
-// app.get(/^\/[0-9]{10,13}\/profile$/, (request, response) => {
-//   nextApp.render(request, response, '/profile', request.params)
-// })
-
 app.get('*', (request, response) => {
   const { query, path } = request
+
   const parsedUrl = {
     pathname: path,
     query
   }
+
   handle(request, response, parsedUrl)
 })
 
