@@ -16,9 +16,8 @@ class MyDocument extends Document {
           <meta name='theme-color' content='#1091f3' />
           <link rel='icon' type='image/png' href='https://cdn.leco.mx/img/identity/favicon-black.png' />
           <link rel='stylesheet' href='https://cdn.materialdesignicons.com/3.7.95/css/materialdesignicons.min.css' />
-          <style>{`body { margin: 0 } /* custom! */`}</style>
         </Head>
-        <body className='gradient-bg'>
+        <body>
           <Main />
           <NextScript />
         </body>
