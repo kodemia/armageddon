@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import Link from 'next/link'
+
 class NavBar extends Component {
-  render() {
+  render () {
     return (
       <>
         <nav>
           <div id='logo'>
             <figure>
-              <img src="../static/icons/kodemiaWhite.svg" alt="Kodemia" />
+              <img src='../static/icons/kodemiaWhite.svg' alt='Kodemia' />
             </figure>
           </div>
           <div>

@@ -1,12 +1,12 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps (ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
 
-  render() {
+  render () {
     return (
       <Html>
         <Head>
@@ -16,7 +16,7 @@ class MyDocument extends Document {
           <meta name='theme-color' content='#1091f3' />
           <link rel='icon' type='image/png' href='https://cdn.leco.mx/img/identity/favicon-black.png' />
           <link rel='stylesheet' href='https://cdn.materialdesignicons.com/3.7.95/css/materialdesignicons.min.css' />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" />
+          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap' />
           <style>{`body { margin: 0 } /* custom! */`}</style>
         </Head>
         <body className='gradient-bg'>
